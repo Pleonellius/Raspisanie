@@ -55,6 +55,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Расписание в ожидании.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Расписание в ожидании.Designer.cs">
+      <DependentUpon>Расписание в ожидании.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Добавления учителя.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавления учителя.Designer.cs">
+      <DependentUpon>Добавления учителя.cs</DependentUpon>
+    </Compile>
     <Compile Include="Тех.поддержка.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +105,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Расписание в ожидании.resx">
+      <DependentUpon>Расписание в ожидании.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавления учителя.resx">
+      <DependentUpon>Добавления учителя.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Тех.поддержка.resx">
       <DependentUpon>Тех.поддержка.cs</DependentUpon>
     </EmbeddedResource>

@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp12
 {
-    public partial class Form2 : MetroFramework.Forms.MetroForm
+    public partial class Form6 : MetroFramework.Forms.MetroForm
     {
-        public Form2()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void Form6_Load(object sender, EventArgs e)
         {
 
         }

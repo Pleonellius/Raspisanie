@@ -43,6 +43,7 @@ namespace WindowsFormsApp12
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +92,7 @@ namespace WindowsFormsApp12
             // 
             this.toolStripComboBox1.Name = "toolStripComboBox1";
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 28);
+            this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -130,7 +132,7 @@ namespace WindowsFormsApp12
             // 
             this.button2.Location = new System.Drawing.Point(23, 27);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 30);
+            this.button2.Size = new System.Drawing.Size(216, 30);
             this.button2.TabIndex = 5;
             this.button2.Text = "Составление расписания";
             this.button2.UseVisualStyleBackColor = true;
@@ -156,11 +158,21 @@ namespace WindowsFormsApp12
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(245, 27);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(221, 30);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Расписания в ожидании";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // Расписание
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 331);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -194,5 +206,6 @@ namespace WindowsFormsApp12
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
